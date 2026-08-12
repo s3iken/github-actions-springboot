@@ -14,6 +14,11 @@ public class GithubActionsSpringbootApplication {
         return "hola";
     }
 
+    @GetMapping("/despedida")
+    public String despedida() {
+        return "adios";
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(GithubActionsSpringbootApplication.class, args);
     }
