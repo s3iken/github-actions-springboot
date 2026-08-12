@@ -25,7 +25,7 @@ jobs:
     - name: Build & Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
-        image: samuel/github-actions-springboot
+        image: s3iken/github-actions-springboot
         tags: latest
         registry: docker.io
         dockerfile: Dockerfile
